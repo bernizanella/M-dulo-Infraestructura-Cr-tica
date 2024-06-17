@@ -1,0 +1,265 @@
+---
+title: Módulo 4 - Infraestructuras Críticas
+authors:
+  - name: Berard, Louise
+    department: Técnicas y Herramientas Modernas
+    affiliation: Facultad de Ingeniería, Uncuyo
+    location: Mendoza, Argentina
+    email: louise.berard28@gmail.com
+  - name: Ibañez, Celina 
+    department: Técnicas y Herramientas Modernas
+    affiliation: Facultad de Ingeniería, Uncuyo
+    location: Mendoza, Argentina
+    email: mcelinaibanez@gmail.com
+  - name: Mobilia, Pilar 
+    department: Técnicas y Herramientas Modernas
+    affiliation: Facultad de Ingeniería, Uncuyo
+    location: Mendoza, Argentina
+    email: pilarmobilia@gmail.com
+  - name: Torresi, Carla 
+    department: Técnicas y Herramientas Modernas
+    affiliation: Facultad de Ingeniería, Uncuyo
+    location: Mendoza, Argentina
+    email: torresi.carla16@gmail.com
+  - name: Valli, Karima 
+    department: Técnicas y Herramientas Modernas
+    affiliation: Facultad de Ingeniería, Uncuyo
+    location: Mendoza, Argentina
+    email: karimavallillalen@gmail.com
+  - name: Zanella, Bernardita 
+    department: Técnicas y Herramientas Modernas
+    affiliation: Facultad de Ingeniería, Uncuyo
+    location: Mendoza, Argentina
+    email: bernizanella2014@gmail.com
+abstract: 
+ Las infraestructuras críticas (IC) son esenciales para el funcionamiento de la sociedad actual debido al impacto directo en la calidad de vida de las personas. Entre las diversas infraestructuras se destaca el sistema de salud como uno de los pilares fundamentales, el cual se interesa por el bienestar individual y colectivo. Este informe profundiza en la importancia del sistema de salud como IC en Argentina, abordando sus desafíos, amenazas y las oportunidades de mejora que podría ofrecer la ingeniería industrial. 
+keywords:
+  - Infraestructuras Críticas
+  - Sistema de Salud
+  - Ingeniería Industrial
+bibliography: references.bib
+biblio-style: apa
+output: rticles::arxiv_article
+---
+
+# Introducción
+
+En el presente informe desarrollaremos los tópicos tratados en el seminario de Resiliencia y Sostenibilidad en las Infraestructuras Críticas dictado por la cátedra de Técnicas y Herramientas Modernas I. Tomaremos como eje central un caso particular de las infraestructuras críticas denominado: “Sector Sanitario y Salud Pública”.
+
+# ¿Qué son las infraestructuras críticas?
+
+Las infraestructuras críticas comprenden el conjunto de obras públicas, instalaciones, instituciones, sistemas y redes que sostienen el funcionamiento de la sociedad y de sus agentes para el desarrollo de actividades fundamentales. Se consideran fundamentales o críticas porque si se dañan o destruyen dificultarían a la sociedad en general. 
+
+## Sectores de Infraestructuras Críticas
+
+Según la CISA (Cybersecurity and Infrestucture Security Agent), se diferencian 16 tipos de IC:
+
+1. Sector químico: fabrica, almacena, usa y transporta productos químicos potencialmente peligrosos de los que dependen otros sectores de infraestructura crítica. Tiene cuatro componentes: Productos químicos básicos, Productos químicos especiales, Productos químicos agrícolas y Productos de consumo.
+
+2. Sector de Instalaciones Comerciales: protege una amplia gama de sitios que atraen a grandes multitudes de personas para ir de compras, negocios, entretenimiento o alojamiento. Consta de ocho subsectores: Entretenimiento y medios de comunicación, Juegos de azar, Alojamiento, Eventos al aire libre, Asambleas públicas, Bienes raíces, Venta al por menor y Ligas deportivas.
+
+3. Sector de Comunicaciones: está estrechamente vinculado a otros sectores, entre ellos, Sector Energético, Sector de TI, Sector de Servicios Financieros, Sector de Servicios de Emergencia y Sector de Sistemas de Transporte.
+
+4. Sector Manufactureo Crítico: tiene dependendias e interdependencias con una amplia gama de otros sectores, entre ellos, Sistemas de transporte, Energía, Química y Agua.
+
+5. Sector Presas: ofrece servicios críticos de retención y control de agua en los EE. UU., apoyando a múltiples sectores e industrias de infraestructura crítica.
+
+6. Sector Base Industrial de Defensa: complejo industrial mundial que permite la investigación y el desarrollo de sistemas, subsistemas y componentes o piezas de armas militares.
+
+7. Sector de Servicios de Emergencia: ayuda a salvar vidas, proteger la propiedad y el medio ambiente, y ayudar en los esfuerzos de recuperación.
+
+8. Sector Energético: protege una red multifacética de recursos y activos de electricidad, petróleo y gas natural para mantener un suministro constante de energía y garantizar la salud y el bienestar general de la nación.
+
+9. Sector de Servicios Financieros: incluye miles de instituciones de depósito, proveedores de productos de inversión, compañías de seguros, otras organizaciones de crédito y financiación, y los proveedores de servicios financieros esenciales que respaldan estas funciones.
+
+10. Sector Agroalimentario: casi en su totalidad de propiedad privada, está compuesto por granjas, restaurantes e instalaciones registradas de fabricación, elaboración y almacenamiento de alimentos.
+
+11. Sector de Instalaciones Gubernamentales: ayuda a las instalaciones federales, estatales, locales, tribales y territoriales a identificar sus factores de riesgo únicos y a protegerse contra posibles ataques o problemas.
+
+12. Sector Sanitario y Salud Pública: depende de la colaboración para proteger a todos los sectores de la economía de peligros como el terrorismo, los brotes de enfermedades infecciosas y los desastres naturales.
+
+13. Sector de Tecnologías de la Información: identifica y protege contra las amenazas y vulnerabilidades cibernéticas.
+ 
+14. Sector de Reactores Nucleares, Materiales y Residuos: este sector incluye 92 reactores de potencia activa, 31 reactores de Investigación y Prueba, 8 instalaciones del Ciclo Activo del Combustible Nuclear y más de 20.000 usuarios con licencia de fuentes radiactivas.
+
+15. Sector de Sistemas de Transporte:  CISA protege este sector de un número ilimitado de amenazas y riesgos para garantizar la continuidad de las operaciones.
+
+16. Sistema de agua y aguas residuales: protege los sistemas que proveen agua. El agua potable es un requisito previo para proteger la salud pública y toda actividad humana. Las aguas residuales tratadas adecuadamente son vitales para prevenir enfermedades y proteger el medio ambiente.
+
+![Infraestructuras Críticas](infraestructurascríticas.png){width='400px' height='200px'}
+
+## Principales responsables de la protección de las infraestructuras críticas
+
+1. Gobiernos: Son los principales interesados en garantizar que los servicios esenciales funcionen de manera adecuada.
+
+2. Organismos competentes: Es muy común que los gobiernos deleguen las tareas de difusión, elaboración y gestión de iniciativas de protección de infraestructuras críticas en organismos públicos, privados o combinación de ambos. Se encargan de garantizar que la industria adopte las medidas de seguridad establecidas por las leyes de protección. Para ello, fomentan y difunden las iniciativas de concienciación y de facilitación del cumplimiento legislativo.
+
+3. Operadores de infraestructuras críticas: Son los que tienen más interés en que sus infraestructuras sean seguras, funcionen de manera adecuada y no sufran daños, interrupciones ni ataques. Sus estrategias son empresariales.
+
+4. Terceras partes: No se ven afectadas de manera directa por las exigencias legales, pero sí de manera indirecta. Un ejemplo de ello son las empresas en que los operadores de las infraestructuras hayan delegado la gestión de las mismas. La forma en que se verán afectadas variará en función de los acuerdos establecidos con el operador de la infraestructura. Así pues, podrán ir desde la asunción de nuevas responsa-bilidades dentro del marco de trabajo existente o a la contratación de nuevos servicios.
+
+![Principales responsable](principalesresponsables.png){width='400px' height='200px'}
+
+Las principales competencias del ente encargado de custodiar el cumplimiento de los planes de protección de infraestructuras críticas son las siguientes:
+
+1. Recolectar, analizar, integrar y evaluar la información aportada por las insti-tuciones públicas, los servicios policiales, y sectores estratégicos
+
+2. Evaluar las amenazas y analizar los riesgos sobre las instalaciones estratégi-cas.
+
+3. Diseñar y establecer la información, la comunicación y los mecanismos de alerta.
+
+# Sector Sanitario y Salud Pública (HPH)
+
+El Sector de la Salud y la Salud Pública protege a todos los sectores de la economía de peligros como el terrorismo, los brotes de enfermedades infecciosas y los desastres naturales. Debido a que la gran mayoría de los activos del sector son de propiedad y operación privada, la colaboración y el intercambio de información entre los sectores público y privado es esencial para aumentar la resiliencia de la infraestructura crítica de atención médica y salud pública de la nación.
+
+El sector de la salud y la salud pública depende en gran medida de otros sectores para la continuidad de las operaciones y la prestación de servicios, entre ellos: Comunicaciones, Servicios de Emergencia, Energía, Alimentación y Agricultura, Tecnología de la información, Sistemas de transporte y Sistemas de agua y aguas residuales. 
+
+Este sector proporciona bienes y servicios integrales para mantener la seguridad sanitaria local, nacional y mundial. Los recursos del Sector HPH son fundamentales para apoyar las cinco áreas principales de la misión (prevención, protección, mitigación, respuesta y recuperación), así como para salvaguardar los activos, las personas y las comunidades del Sector a las que sirven antes, durante y después de cualquier incidente con consecuencias reales o potenciales para la salud. 
+
+La infraestructura del sector HPH se dedica en gran medida a construir y mantener la resiliencia de la salud de la comunidad; mejorar y ampliar la capacidad médica de la nación para la atención médica cotidiana; mejorar las capacidades de conocimiento de la situación relacionadas con la salud; mejorar la integración de las capacidades de HPH en los sistemas de gestión de emergencias de manera eficaz; y el fortalecimiento de la seguridad sanitaria mundial. Los elementos clave del sector HPH están integrados y escalables desde las operaciones de referencia hasta el modo de respuesta a crisis en cualquier lugar de los EE. UU. La interrupción del sector HPH también puede tener un impacto directo en la economía estadounidense. 
+
+Algunos desafíos o crisis que enfrentó este sector fueron: el huracán Katrina en 2005, la pandemia de gripe H1N1 en 2009, la supertormenta Sandy en 2012, la epidemia de ébola en África occidental en 2014 y la más reciente, la pandemia COVID-19.
+
+## Sistema de Salud como infraestructura crítica en Argentina
+
+La importancia de esta IC se debe a que garantiza el bienestar individual y colectivo de la población a través de la prevención y atención de enfermedades siendo un pilar de extrema importancia para el desarrollo social y económico del país. Sobre todo, el sistema sanitario público argentino se encarga del sector social más vulnerable y de menores recursos económicos del país, quienes no pueden acceder al sistema privado. 
+
+Además de resaltar su gran valor, es importante señalar las fallas y necesidades de dicho sector, las cuales quedaron en mayor exposición luego de la pandemia del COVID-19. La falta de insumos esenciales, la precarización del sistema y los profesionales que trabajan allí, la desactualización de los equipos médicos y de los sistemas informáticos y en general la falta de inversión por parte del Estado y privados en hospitales y centros de investigación. 
+	
+El sistema de salud además de ser una IC también tiene una interdependencia con muchas otras infraestructuras como la energía, el agua, el transporte, la tecnología, sistemas de comunicación, etc. el colapso de alguna de ellas supondría el colapso del sistema sanitario. La paralización del sistema de salud decantaría en aumentos de la mortalidad y morbilidad, propagación de enfermedades, este en particular es un punto extremadamente importante debido a que se sabe que el mundo será un lugar cada vez más propicio a endemias y pandemias amenazando la vida de las personas en todo el mundo. 
+	
+Algunos de las posibles amenazas para el sistema de salud son: hackeos a sistemas informáticos de hospitales o centros de investigación teniendo en cuenta que estos tienen información privada de pacientes e investigaciones de posibles avances científicos. Otro riesgo para esta IC son los ataques físicos a infraestructuras tanto sanitarias como aquellas con las que está relacionada como plantas de tratamientos de aguas, redes de distribución de medicamentos e insumos sanitarios, posibles ataques terroristas o desastres naturales.
+	
+Ante todos los riesgos mencionados es de suma importancia que exista un marco legal y regulatorio donde leyes y normas específicas protejan a las IC, el fortalecimiento de la seguridad física y cibernética para proteger las instalaciones, sistemas informáticos y datos sensibles. También es esencial la inversión en tecnología y capacitaciones que permitan la modernización de los equipos y la correcta actuación del personal mejorando la eficiencia y capacidad de respuesta. 
+
+Frente a estos y nuevos desafíos la ingeniería industrial puede contribuir de manera significativa a la mejora del sistema de salud en diversos aspectos:
+
+### Optimización de procesos y recursos	
+
+•	Aplicación de metodologías para el análisis de procesos, diagramas de flujo y simulaciones para detectar los posibles cuellos de botellas, eliminando puntos de repetición y así poder optimizar tiempos y recursos (en particular los financieros) 
+
+•	Gestión de inventarios y controles de stocks garantizando la disponibilidad de los insumos médicos.
+
+•	Diseño adecuado de layouts, optimizando tiempos de espera y de atención y el correcto uso de espacios físicos dentro de las instalaciones y áreas administrativas tanto de los pacientes como del personal. 
+
+### Gestión en cadenas de suministros:
+
+•	Planificación estratégica de la demanda y cadena de adquisición   de insumos, considerando necesidades específicas de cada sector, variabilidades estacionales y consideraciones geopolíticas.
+
+•	Planificación, gestión y optimización en la distribución logística para minimizar tiempos y costos asegurando la disponibilidad y acceso inmediato a los recursos médicos.
+
+### Mejora en la atención del paciente:
+
+•	Implementación de herramientas tecnológicas para la mejora de la atención de los pacientes y así eliminar procedimientos burocráticos redundantes e innecesarios.
+
+•	Diseño y aplicación de protocolos estandarizados para la atención de pacientes, comparables con un proceso de “check      in”, donde el paciente puede completar rápidamente los datos necesarios y así entrar al sistema para que sea atendido.
+
+•	Implementación de Inteligencia artificial para un diagnóstico a priori mediante la descripción de los síntomas del paciente, no   obstante, no significaría el reemplazo del profesional de la salud. Además, se podría utilizar la IA para el análisis de datos, identificando factores comunes de enfermedades, analogías y posibles proyecciones y diagnósticos, etc.
+
+### Mejora en los sistemas de seguridad:
+
+•	Teniendo en cuenta el auge los sistemas informáticos, es importante aplicar medidas de seguridad para evitar el robo o fuga de datos.
+
+# ¿En qué podemos ayudar los ingenieros industriales con este sistema?
+
+Los ingenieros industriales podemos desempeñar un papel fundamental en la mejora de las infraestructuras críticas del sistema de salud pública. La formación y experiencia en áreas como la optimización de procesos, la gestión de la cadena de suministro, la logística y la toma de decisiones basadas en datos los convierten en aliados estratégicos para abordar los complejos desafíos que enfrenta este sector.
+
+## Ejemplo de cómo los ingenieros industriales ayudaron durante la pandemia:
+
+### Simulación clínica
+
+Los ingenieros industriales colaboraron en el diseño y desarrollo de simuladores clínicos con "pacientes tecnológicos" para recrear situaciones reales en los centros de salud. Esto permitió a los profesionales médicos y de enfermería practicar procedimientos complejos, mejorar la comunicación y el trabajo en equipo, y prepararse para enfrentar escenarios de crisis.
+
+### Predicción del impacto de enfermedades infecciosas
+
+Los ingenieros industriales utilizaron su conocimiento en modelado y simulación para desarrollar herramientas como LOIMOS, que permitieron a las organizaciones gubernamentales de salud predecir la evolución de la pandemia en diferentes escenarios epidemiológicos. Esto facilitó la toma de decisiones oportunas y basadas en evidencia para contener la propagación del virus y proteger a la población.
+
+## Simuladores utilizados en el sistema de salud:
+
+1. Simuladores de pacientes:
+
+- Laerdal SimMan: Este simulador de paciente de cuerpo completo de alta fidelidad permite reproducir una amplia gama de condiciones médicas, como paro cardíaco, shock hemorrágico y dificultad respiratoria. Se utiliza para la formación en procedimientos médicos complejos en un entorno seguro.
+
+![Laerdal SimMan](simman-3g-3.jpg){width='400px' height='200px'}
+
+- CAE Healthcare METIman: Este simulador de paciente de torso completo de alta fidelidad permite simular una variedad de procedimientos médicos, como la colocación de vías intravenosas, la administración de medicamentos y la toma de muestras de sangre. Se utiliza para la formación en procedimientos médicos básicos.
+
+- Gael Simuladores: Estos simuladores de pacientes de bajo costo simulan funciones fisiológicas básicas como la frecuencia cardíaca, la presión arterial y la respiración. Se utilizan para la formación en habilidades básicas de atención al paciente.
+
+2. Simuladores de escenarios:
+
+- Simulab: Este software de simulación permite crear escenarios clínicos personalizados y realistas para la formación en la toma de decisiones clínicas y la gestión de equipos.
+
+- St. John's Ambulance Virtual Ambulance: Este simulador de realidad virtual coloca a los participantes en el interior de una ambulancia y les presenta una variedad de escenarios médicos de emergencia para la formación en atención prehospitalaria.
+
+- Medical Simulation Center at the University of Central Florida: Este centro de simulación médica ofrece una variedad de escenarios clínicos simulados, incluyendo quirófanos, salas de partos y unidades de cuidados intensivos, para la formación en procedimientos complejos y atención crítica.
+
+3. Simuladores de entrenamiento:
+
+- Simuladores de sutura: Estos simuladores permiten a los estudiantes practicar la sutura de piel en modelos sintéticos para la formación en habilidades quirúrgicas básicas.
+
+![Simulador Sutura](simuladorsutura.jpg){width='400px' height='200px'}
+
+- Simuladores de laparoscopia: Estos simuladores permiten a los cirujanos practicar procedimientos laparoscópicos en modelos virtuales para la formación en cirugía mínimamente invasiva.
+
+![Simulador Laparoscopia](laparoscopia.png){width='400px' height='250px'}
+
+- Simuladores de ultrasonido: Estos simuladores permiten a los médicos aprender a realizar ecografías en modelos virtuales o en pacientes simulados para la formación en el uso de ultrasonidos en el diagnóstico y tratamiento médico.
+
+![Simulador Ultrasonido](ultrasonido.png){width='300px' height='300px'}
+
+4. Otro simulador muy utilizado fue Simmer. El cual es un paquete R para la simulación de eventos discretos (DES) que puede ser utilizado para modelar y analizar una amplia gama de sistemas y procesos en el ámbito de la salud.
+
+Algunas de las aplicaciones específicas de Simmer en el sistema de salud incluyen:
+
+- Modelado de flujos de pacientes: se puede utilizar para modelar el flujo de pacientes a través de un sistema de salud, desde su llegada hasta su alta. Esto puede ayudar a identificar cuellos de botella, optimizar la asignación de recursos y mejorar la eficiencia general del sistema.
+
+- Simulación de procedimientos médicos: Simmer puede utilizarse para simular procedimientos médicos complejos, como cirugías o intervenciones cardíacas. Esto puede ayudar a los profesionales médicos a practicar y perfeccionar sus habilidades, así como a planificar y optimizar los procedimientos.
+
+- Modelado de epidemias: Simmer puede utilizarse para modelar la propagación de enfermedades infecciosas, como la gripe o el COVID-19. Esto puede ayudar a las autoridades sanitarias a tomar decisiones informadas sobre la prevención y el control de las enfermedades.
+
+- Análisis de la cadena de suministro de medicamentos: Simmer puede utilizarse para analizar la cadena de suministro de medicamentos, desde la fabricación hasta la distribución. Esto puede ayudar a identificar posibles interrupciones en el suministro y optimizar la gestión de inventarios.
+
+- Modelado de sistemas de salud: Simmer puede utilizarse para modelar sistemas de salud completos, incluyendo hospitales, clínicas y sistemas de financiación. Esto puede ayudar a los responsables políticos a evaluar diferentes políticas y estrategias de salud.
+
+Ejemplos de cómo se ha utilizado Simmer en el sistema de salud:
+
+- Investigadores de la Universidad de Michigan utilizaron Simmer para modelar el flujo de pacientes en un departamento de emergencias. El modelo identificó un cuello de botella en el proceso de registro, lo que llevó a cambios en el diseño del flujo de trabajo que redujeron significativamente los tiempos de espera.
+
+- Un equipo de médicos del Hospital General de Massachusetts utilizó Simmer para simular un nuevo procedimiento quirúrgico. La simulación mostró que el nuevo procedimiento era más seguro y eficiente que el método tradicional, lo que llevó a su adopción en el hospital.
+
+- Los Centros para el Control y la Prevención de Enfermedades (CDC) utilizaron Simmer para modelar la propagación de la gripe. El modelo ayudó a los CDC a predecir la gravedad de la temporada de gripe y a tomar decisiones sobre la distribución de vacunas.
+
+# Conclusión 	
+
+En resumen, la ingeniería industrial ofrece un conjunto de herramientas, metodologías y enfoques de diversos puntos de vistas, valiosos para la optimización del sistema de salud, mejorando la atención de los pacientes, la gestión de la información y datos. La colaboración entre profesionales de la salud e ingenieros industriales puede generar grandes avances que contribuyan a la optimización, eficiencia y mejora de un sistema sanitario cada vez más sostenible, resiliente y centralizado en las necesidades de la población. 
+
+Se puede ver que los simuladores han demostrado ser una herramienta invaluable para el sistema de salud pública, ofreciendo una amplia gama de beneficios que contribuyen a mejorar la calidad de la atención médica, la preparación para emergencias y la eficiencia general del sistema.
+
+A continuación, se resumen los principales puntos a destacar sobre el uso de simuladores en el ámbito de la salud pública:
+
+- Mejora de la formación y las habilidades: Los simuladores permiten a los profesionales médicos y de enfermería practicar procedimientos complejos en un entorno seguro y controlado, lo que les ayuda a desarrollar las habilidades y la confianza necesarias para realizar su trabajo de manera efectiva en situaciones reales.
+
+- Reducción de errores médicos: La práctica repetitiva en simuladores puede ayudar a identificar y corregir errores antes de que tengan consecuencias negativas para los pacientes, lo que contribuye a mejorar la seguridad del paciente y la calidad de la atención.
+
+- Preparación para emergencias: Los simuladores de desastres y pandemias permiten a los profesionales y equipos médicos prepararse para responder a eventos de crisis de manera efectiva, coordinada y eficiente.
+
+- Mejora de la comunicación y el trabajo en equipo: Los escenarios simulados que involucran a múltiples profesionales ayudan a mejorar la comunicación, la coordinación y la toma de decisiones en equipo, aspectos esenciales para la atención médica de calidad.
+
+- Optimización de recursos: El uso de simuladores puede reducir la necesidad de utilizar pacientes reales para la formación, lo que libera recursos y permite una mejor asignación de los mismos.
+
+Investigación y desarrollo: Los simuladores también se pueden utilizar para investigar nuevas técnicas médicas, procedimientos y tecnologías, lo que contribuye al avance de la medicina y la mejora de la salud pública.
+
+En general, los simuladores se han convertido en una herramienta fundamental para el sistema de salud pública, ofreciendo un sinfín de posibilidades para mejorar la formación, la preparación, el desempeño y la eficiencia de los profesionales médicos y de enfermería.
+
+A medida que la tecnología continúa avanzando y se desarrollan nuevos simuladores más sofisticados, podemos esperar que su impacto en el sistema de salud pública sea aún mayor en el futuro.
+
+# Referencias Bibliográficas
+
+https://cisa.gov
+https://www.ssih.org/
+https://simulation.hms.harvard.edu/
+https://www.cihr-irsc.gc.ca/e/193.html
+https://r-simmer.org/
+Material de la Cátedra
+.
